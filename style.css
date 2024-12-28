@@ -68,3 +68,9 @@ body{
     height: var(--h);
     border-radius: 8px;
 }
+
+@media screen and(max-width:600px) {
+    .container {
+        width: 70%;
+    }
+}
